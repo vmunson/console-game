@@ -18,6 +18,13 @@ namespace consoleGame
             player.PlayerName = myName;
 
             Console.WriteLine($"Welcome, {player.PlayerName}");
+
+            while (player.HealthPoints > 0)
+            {
+                
+            }
+
+
         }
     }
 }
