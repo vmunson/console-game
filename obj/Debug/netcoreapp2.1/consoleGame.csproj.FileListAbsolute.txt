@@ -1,0 +1,11 @@
+/Users/gmunson/Documents/consoleGame/obj/Debug/netcoreapp2.1/consoleGame.csprojAssemblyReference.cache
+/Users/gmunson/Documents/consoleGame/obj/Debug/netcoreapp2.1/consoleGame.csproj.CoreCompileInputs.cache
+/Users/gmunson/Documents/consoleGame/obj/Debug/netcoreapp2.1/consoleGame.AssemblyInfoInputs.cache
+/Users/gmunson/Documents/consoleGame/obj/Debug/netcoreapp2.1/consoleGame.AssemblyInfo.cs
+/Users/gmunson/Documents/consoleGame/bin/Debug/netcoreapp2.1/consoleGame.deps.json
+/Users/gmunson/Documents/consoleGame/bin/Debug/netcoreapp2.1/consoleGame.runtimeconfig.json
+/Users/gmunson/Documents/consoleGame/bin/Debug/netcoreapp2.1/consoleGame.runtimeconfig.dev.json
+/Users/gmunson/Documents/consoleGame/bin/Debug/netcoreapp2.1/consoleGame.dll
+/Users/gmunson/Documents/consoleGame/bin/Debug/netcoreapp2.1/consoleGame.pdb
+/Users/gmunson/Documents/consoleGame/obj/Debug/netcoreapp2.1/consoleGame.dll
+/Users/gmunson/Documents/consoleGame/obj/Debug/netcoreapp2.1/consoleGame.pdb
