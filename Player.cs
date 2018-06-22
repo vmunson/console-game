@@ -28,6 +28,8 @@ class Player
       get { return _attackPoints;}
       set { _attackPoints = value;}
   }
+
+  public bool Heal { get; set; }
   
   public void PlayerHealth(int health, int attack)
   {
@@ -38,5 +40,12 @@ class Player
   {
     Random number = new Random();
     _attackPoints = number.Next(26);
+  }
+
+  public void PlayerHeal()
+  {
+    Random number = new Random();
+    _healthPoints += number.Next(26);
+    Heal = false;
   }
 }
