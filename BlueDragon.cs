@@ -2,8 +2,6 @@ using System;
 
 class BlueDragon : Enemy
 {
-    public string WeaponName { get; set; }
-
     public override void EnemyAttack()
   {
     Random number = new Random();

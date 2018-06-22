@@ -1,12 +1,13 @@
 using System;
 class Enemy
 {
-  private int _healthPoints;
+  // private int _healthPoints;
   private int _attackPoints;
+  public string WeaponName { get; set; }
   public int HealthPoints
   {
-      get { return _healthPoints;}
-      set { _healthPoints = value;}
+      get ;
+      set ;
   }
   public int AttackPoints
   {
@@ -16,7 +17,7 @@ class Enemy
   
   public void EnemyHealth(int health, int attack)
   {
-    _healthPoints = health - attack;
+    HealthPoints = health - attack;
   }
   public virtual void EnemyAttack()
   {
