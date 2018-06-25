@@ -1,5 +1,5 @@
 using System;
-class Player
+class Player : IGameTurn
 {
   private string _playerName;
   private int _attackPoints;
@@ -31,12 +31,12 @@ class Player
 
   public bool Heal { get; set; }
   
-  public void PlayerHealth(int health, int attack)
+  public void Health(int health, int attack)
   {
     _healthPoints = health - attack;
   }
   
-  public void PlayerAttack()
+  public void Attack()
   {
     Random number = new Random();
     _attackPoints = number.Next(26);

@@ -37,43 +37,43 @@ namespace consoleGame
                     }
                 }
                 
-                player.PlayerAttack();
+                player.Attack();
                 if(enemyOne.HealthPoints > 0)
                 {
                     Console.WriteLine($"You have attacked Red Mage for {player.AttackPoints}HP");
-                    enemyOne.EnemyHealth(enemyOne.HealthPoints, player.AttackPoints);
+                    enemyOne.Health(enemyOne.HealthPoints, player.AttackPoints);
                     Console.WriteLine($"Red Mage now has {enemyOne.HealthPoints}HP");
                     if(enemyOne.HealthPoints > 0)
                     {
-                        enemyOne.EnemyAttack();
+                        enemyOne.Attack();
                         Console.WriteLine($"Red Mage has attacked you for {enemyOne.AttackPoints}HP");
-                        player.PlayerHealth(player.HealthPoints, enemyOne.AttackPoints);
+                        player.Health(player.HealthPoints, enemyOne.AttackPoints);
                         Console.WriteLine($"You now have {player.HealthPoints}HP");
                     }
                 }
                 else if(enemyTwo.HealthPoints > 0)
                 {
                     Console.WriteLine($"You have attacked Green Beast for {player.AttackPoints}HP");
-                    enemyTwo.EnemyHealth(enemyTwo.HealthPoints, player.AttackPoints);
+                    enemyTwo.Health(enemyTwo.HealthPoints, player.AttackPoints);
                     Console.WriteLine($"Green Beast now has {enemyTwo.HealthPoints}HP");
                     if(enemyTwo.HealthPoints > 0)
                     {
-                        enemyTwo.EnemyAttack();
+                        enemyTwo.Attack();
                         Console.WriteLine($"Green Beast has attacked you for {enemyTwo.AttackPoints}HP");
-                        player.PlayerHealth(player.HealthPoints, enemyTwo.AttackPoints);
+                        player.Health(player.HealthPoints, enemyTwo.AttackPoints);
                         Console.WriteLine($"You now have {player.HealthPoints}HP");
                     }
                 }
                 else if(enemyThree.HealthPoints > 0)
                 {
                     Console.WriteLine($"You have attacked Blue Dragon for {player.AttackPoints}HP");
-                    enemyThree.EnemyHealth(enemyThree.HealthPoints, player.AttackPoints);
+                    enemyThree.Health(enemyThree.HealthPoints, player.AttackPoints);
                     Console.WriteLine($"Blue Dragon now has {enemyThree.HealthPoints}HP");
                     if(enemyThree.HealthPoints > 0)
                     {
-                        enemyThree.EnemyAttack();
+                        enemyThree.Attack();
                         Console.WriteLine($"Blue Dragon has attacked you for {enemyThree.AttackPoints}HP");
-                        player.PlayerHealth(player.HealthPoints, enemyThree.AttackPoints);
+                        player.Health(player.HealthPoints, enemyThree.AttackPoints);
                         Console.WriteLine($"You now have {player.HealthPoints}HP");
                     }
                 }

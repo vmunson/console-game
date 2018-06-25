@@ -1,5 +1,5 @@
 using System;
-class Enemy
+class Enemy : IGameTurn
 {
   private int _healthPoints;
   private int _attackPoints;
@@ -15,11 +15,11 @@ class Enemy
       set { _attackPoints = value;}
   }
   
-  public void EnemyHealth(int health, int attack)
+  public void Health(int health, int attack)
   {
     _healthPoints = health - attack;
   }
-  public virtual void EnemyAttack()
+  public virtual void Attack()
   {
     Random number = new Random();
     _attackPoints = number.Next(1);
